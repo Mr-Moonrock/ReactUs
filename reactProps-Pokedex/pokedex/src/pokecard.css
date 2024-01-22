@@ -1,0 +1,28 @@
+.pokecard-card {
+  display: flex;
+  flex-direction: column;
+  border: 10px solid #DAA520;
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
+  background-color: lightsteelblue;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 200px;
+  height: 300px;
+}
+
+.pokecard-info {
+  margin-top: 5px;
+}
+
+.pokecard-img {
+  height: 150px;
+
+  border: 5px solid #DAA520;
+}
+
+.pokegame {
+  display: flex;
+}
+
