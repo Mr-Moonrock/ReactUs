@@ -1,0 +1,51 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: black;
+  color: #14171a;
+  margin: 0;
+  padding: 0;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+#tweet {
+  border: 1px solid #ccd6dd;
+  border-radius: 10px;
+  padding: 10px;
+  margin-bottom: 15px;
+  background-color: #ffffff;
+  width: 300px;
+}
+
+#username {
+  font-weight: bold;
+  font-size: 22px;
+}
+
+#name {
+  font-weight: bold;
+  color: #657786;
+  display: inline;
+  font-size: 18px;
+}
+
+#date {
+  color: #657786;
+  display: inline;
+}
+
+#bgrd-message {
+  background-color: #edf5fc;  
+  padding: 10px;
+  border-radius: 8px;
+  margin-top: 5px;
+}
+
+#message {
+  margin-top: 10px;
+}
