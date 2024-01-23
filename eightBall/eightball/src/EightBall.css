@@ -1,0 +1,38 @@
+.eightball {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.eightball-circle {
+  width: 500px;
+  height: 500px;
+  background-color: black;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.eightball-answer-triangle {
+  width: 0;
+  height: 0;
+  border-left: 150px solid transparent;
+  border-right: 150px solid transparent;
+  border-bottom: 200px solid lightblue;
+  position: absolute;
+  margin: auto;
+  border-radius: 15px;
+}
+
+.eightball-answer {
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 75%);
+  z-index: 1;
+}
+
