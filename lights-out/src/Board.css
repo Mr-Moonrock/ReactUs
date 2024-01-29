@@ -1,0 +1,31 @@
+:root {
+  --clear-neon: hsl(317 100%, 54%);
+  --clear-bg: hsl(323 21% 16%);
+}
+
+.Board 
+
+.Board-GameBoard {
+  margin: 0 auto;
+  background-color: black;
+  border-radius: 5px;
+  border: solid 2px black; 
+}
+
+.Board-Heading {
+  font-family:'Times New Roman', Times, serif;
+  font-size: 120px;
+  color: var(--clear-neon);
+  text-shadow: 
+  0 0 0.125em hsl(0 0% 100% / 0.5),
+  0 0 .125em currentColor;
+  
+}
+
+.Board-Winner {
+  font-size: 120px;
+  color: var(--clear-neon);
+  text-shadow: 
+  0 0 0.125em hsl(0 0% 100% / 0.5),
+  0 0 .125em currentColor;
+}

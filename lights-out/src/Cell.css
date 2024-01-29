@@ -1,0 +1,18 @@
+:root {
+  --clear-neon: hsl(317 100%, 54%);
+  --clear-bg: hsl(323 21% 16%);
+}
+
+.Cell {
+  height: 200px;
+  width: 200px;
+  background-color: var(--clear-bg);
+  cursor: pointer;
+  border: var(--clear-neon) 1px solid;
+}
+
+.Cell-lit {
+  background-color: var(--clear-neon);
+  cursor: pointer;
+}
+
